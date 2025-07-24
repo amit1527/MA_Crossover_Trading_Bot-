@@ -1,0 +1,6 @@
+python -> 3.12+
+Pip -> 25.1.1
+Alpaca API -> 1.17.0
+Datetime -> 5.5
+Pandas -> 2.3.0+
+Plotly -> 6.2.0+
