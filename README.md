@@ -1,25 +1,25 @@
-# 📈 Crossover Trading Bot (Alpaca API + Python)
-#### 🎥 Video Demo: [Watch Here](https://youtu.be/vVf5KyeJTx8)
+# Crossover Trading Bot (Alpaca API + Python)
+#### Video Demo: [Watch Here](https://youtu.be/vVf5KyeJTx8)
 
-## 📌 Description
+## Description
 
 This is a real-time automated trading bot built using the [Alpaca API](https://alpaca.markets/) and Python. It trades **AMZN stock** using a short-term **Moving Average Crossover Strategy** on 1-minute candlestick data. The bot runs continuously and places **bracket orders** with predefined **Take Profit (TP)** and **Stop Loss (SL)** levels.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Fetches 1-minute historical data from Alpaca
-- ✅ Calculates 1-hour and 6-hour moving averages
-- ✅ Generates buy/sell signals using crossover detection
-- ✅ Executes paper trades using bracket orders
-- ✅ Automatically manages TP and SL
-- ✅ Loops every 60 seconds for updates
-- ✅ API keys securely stored in `config.py`
+-  Fetches 1-minute historical data from Alpaca
+-  Calculates 1-hour and 6-hour moving averages
+-  Generates buy/sell signals using crossover detection
+-  Executes paper trades using bracket orders
+-  Automatically manages TP and SL
+-  Loops every 60 seconds for updates
+-  API keys securely stored in `config.py`
 
 ---
 
-## 🧠 Strategy Overview
+## Strategy Overview
 
 The bot uses a **Moving Average Crossover Strategy**, a classic trend-following technique used in algorithmic trading.
 
@@ -43,12 +43,12 @@ A sell is triggered when:
 
 This indicates a downward momentum shift, prompting a **short** position.
 
-### ❌ No Signal
+### No Signal
 If neither crossover occurs, the bot **waits** for the next opportunity without placing any trades.
 
 ---
 
-## 📊 Why Moving Averages?
+## Why Moving Averages?
 
 - Helps filter market noise
 - Identifies potential trend reversals
@@ -56,7 +56,7 @@ If neither crossover occurs, the bot **waits** for the next opportunity without 
 
 ---
 
-## 💰 Risk Management
+## Risk Management
 
 The bot follows a **2:1 Reward-to-Risk** ratio using bracket orders:
 
@@ -69,7 +69,7 @@ Bracket orders automatically place TP and SL with each trade.
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repo
 
